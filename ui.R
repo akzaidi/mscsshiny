@@ -22,7 +22,7 @@ for (dep in deps){
 # library(mscsweblm4r)
 
 # Configure mscsweblm4r
-Sys.setenv(MSCS_WEBLANGUAGEMODEL_CONFIG_FILE = "./data/.mscskeys.json")
+# Sys.setenv(MSCS_WEBLANGUAGEMODEL_CONFIG_FILE = "./data/.mscskeys.json")
 weblmInit()
 
 source("server.R")
